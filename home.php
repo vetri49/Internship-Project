@@ -1,6 +1,6 @@
   <?php
                 require 'conn.php';
-               $conn=new mysqli("localhost","lol","987","jin");
+               
                       $id=$_GET['editid'];
 
                     if(isset($_GET['msg'])){
